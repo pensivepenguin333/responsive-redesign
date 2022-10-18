@@ -1,0 +1,165 @@
+/* imported fonts are from https://www.cdnfonts.com/ */
+@import url('http://fonts.cdnfonts.com/css/lemonmilk');
+@import url('http://fonts.cdnfonts.com/css/effra-trial');
+@import url('http://fonts.cdnfonts.com/css/omnes-regular');
+@import url('http://fonts.cdnfonts.com/css/caribantu');
+
+body {
+    background: #a6bdb3;
+    font-family: gill sans;
+}
+
+
+h1 {
+    background-color: white;
+    font-weight: 400;
+    color: #4f5f58;
+    font-size: 45px;
+    border: 2px solid black;
+    padding: 25px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+}
+
+/* h1 span {
+    color: #98b3c2;
+} */
+
+h3 {
+    /* font-family: 'Effra Trial', sans-serif; */
+    color: #4f5f58;
+    font-size: 35px;
+    line-height: 50px;
+    margin: 30px 0px 10px 0px;
+    font-weight: 400;
+}
+
+h3 span {
+    background-color: rgb(255, 255, 255, 1);
+    border-radius: 15px;
+    padding: 4px 15px 4px 15px;
+    border: 2px solid black;
+}
+
+.section-body {
+    background-color: white;
+    border-radius: 15px;
+    padding: 17px 15px 17px 15px;
+    border: 2px solid black;
+    /* font-family: 'Caribantu', sans-serif;                                */
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 100;
+    
+}
+
+.section-body span {
+    font-weight: 400;
+}
+
+p {
+    margin: 4px 0px 4px 0px;
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.section a:hover {
+    color: #6b877b;
+}
+
+p span {
+    font-weight: 400;
+}
+
+.annotations img {
+    width: 50vw;
+    max-width: 600px;
+    min-width: 320px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid #6b877b;
+}
+
+.annotations {
+    display: flex;
+    justify-content: center;
+}
+
+.desktop img {
+    width: 50vw;
+    max-width: 600px;
+    min-width: 320px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid #6b877b;
+}
+
+.desktop {
+    display: flex;
+    justify-content: center;
+}
+
+.tablet img {
+    width: 40vw;
+    max-width: 600px;
+    min-width: 320px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid #6b877b;
+}
+
+.tablet {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile img {
+    width: 30vw;
+    max-width: 600px;
+    min-width: 320px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid #6b877b;
+}
+
+.mobile {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 70vw;
+    margin: auto;
+}
+
+.lofi img {
+    width: 65vw;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+
+.lofi {
+    display: flex;
+    justify-content: center;
+}
+
+.style-guide img {
+    width: 60vw;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid #6b877b;
+}
+
+.style-guide {
+    display: flex;
+    justify-content: center;
+}
+
+img { 
+    align-self: flex-start; 
+}
